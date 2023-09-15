@@ -1,0 +1,94 @@
+
+.title-login h4{
+  color: #eae8e8;
+  font-size: 200%;
+  }
+  .wrapper1 {
+    position: absolute;
+    backdrop-filter: blur(8.5px);
+   top: 4%;
+   margin-top: 3%;
+  margin-left: 34%;
+    overflow: hidden;
+   width: 32%;
+   height: 80%;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: rgba(225, 225, 225, 0.05);
+   box-shadow: rgba(74, 73, 73, 0.3);
+   -webkit-backdrop-filter: blur(0.3px);
+   border:  solid rgba(61, 48, 48, 0.3);
+   
+    }
+    .form-inner input
+    {
+      width: 370px;
+      height: 55px;
+      border-radius: 7px;
+      border-color: aliceblue;
+      font-size:19px;
+      text-align: center;
+    }
+    .rest{
+      width: 50%;
+      height: 55px;
+      margin-left: 24%;
+      font-size: larger;
+      font-weight: 500;
+      border-radius: 15px;
+
+
+      border-color: #1b1717;
+      background: rgba(59, 136, 164, 0.05);
+    box-shadow: rgba(74, 73, 73, 0.3);
+    }
+  a{
+    text-decoration: none;
+color:#ddc4c4
+  }
+.already-acc h4{
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.Mybutton1{
+    width: 44%;
+    margin-left: 70%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20%;
+    border-color: #2a2121;
+    background: rgba(59, 136, 164, 0.05);
+    box-shadow: rgba(74, 73, 73, 0.3);
+    text-decoration: aliceblue;
+  }
+  .field-btn input{
+    margin-left: 29%;
+  width: 50%;
+  height: 55px;
+  font-size: 18px;
+  color: rgb(255, 248, 248);
+  text-align: center;
+  background-color: #f9f4f4;
+  border-radius: 5px;
+  background: rgba(59, 136, 164, 0.05);
+  box-shadow: rgba(74, 73, 73, 0.3);
+  border-color: rgb(24, 44, 61);
+  }
+  .field-btn1 input{
+    margin-left: 29%;
+    margin-top: 6%;
+  width: 45%;
+  height: 45px;
+  font-size: 18px;
+  color: rgb(255, 248, 248);
+  text-align: center;
+  background-color: #f9f4f4;
+  border-radius: 5px;
+  background: rgba(59, 136, 164, 0.05);
+  box-shadow: rgba(74, 73, 73, 0.3);
+  border-color: rgb(24, 44, 61);
+  }
