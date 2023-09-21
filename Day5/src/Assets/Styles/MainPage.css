@@ -1,0 +1,31 @@
+.mainpage-wrapper{
+    background-image: url("https://img.freepik.com/premium-photo/education-concept-3d-world-wears-graduate-hat-book-blue-background-modern-flat-design-isometric-concept-education-back-school_387680-840.jpg?size=626&ext=jpg&ga=GA1.1.1216332969.1695225406&semt=sph");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.profile-logo{
+    margin-top: 5%;
+    margin-left: 65%;
+}
+.login_val a{
+    color: aliceblue;
+    margin-left: 70%;
+}
+.quote{
+   margin-top: 5%;
+}
+.message-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Style the text */
+.message-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

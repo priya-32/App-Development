@@ -1,0 +1,83 @@
+/* Student.css */
+
+/* Styles for the wrapper div */
+.Wrapper {
+    padding: 20px;
+  }
+  
+  /* Styles for the navigation bar */
+  .navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  /* Styles for the "Add new student" button */
+  .btn-outline-success {
+    margin-top: 10px;
+  }
+  
+  /* Styles for the table */
+  .table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dee2e6;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table thead {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  /* Styles for table rows and alternating row colors */
+  .table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  /* Styles for the "Edit" button */
+  .btn-dark {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Add more styles as needed */
+  /* Style for the navigation bar */
+.navbar {
+    background-color: #343a40; /* Background color */
+    color: #fff; /* Text color */
+    border-bottom: 1px solid #dee2e6; /* Bottom border */
+    padding: 10px 0; /* Adjust the top and bottom padding as needed */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Font weight for the brand text */
+  }
+  
+  /* Style for the "Add new student" button */
+  .btn-outline-success {
+    margin-top: 10px; /* Adjust the top margin as needed */
+    background-color: #28a745; /* Background color when not hovered or focused */
+    color: #fff; /* Text color when not hovered or focused */
+    border: none; /* Remove button border */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .btn-outline-success:hover,
+  .btn-outline-success:focus {
+    background-color: #218838; /* Background color when hovered or focused */
+    color: #fff; /* Text color when hovered or focused */
+    outline: none; /* Remove outline when focused */
+  }
+  

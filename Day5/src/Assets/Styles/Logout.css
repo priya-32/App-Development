@@ -1,0 +1,20 @@
+.logout {
+    display: flex;
+    flex-direction: row;
+    align-items: row;
+    justify-content:flex-end; /* Align content to the right */
+    height: 100hv; /* Change this to 100vh */
+    font-family: "Inter";
+  }
+  
+  .logout_button {
+    min-width: 30px;
+    padding: 50 px;
+    margin-top: 320px;
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 3px;
+  }
+  
