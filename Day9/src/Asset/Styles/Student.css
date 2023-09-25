@@ -1,0 +1,22 @@
+.student-container {
+    margin-top: 0%;
+  }
+  
+  .student-wrapper {
+    margin-top: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    width: 100%; 
+    height: 100vh; /* Use 100vh for full viewport height */
+    position: relative;
+    margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/premium-photo/female-student-graduate-is-standing-university-hall-mantle-smiling-with-diploma-hands_115086-791.jpg");
+  }
+  
+.std-list{
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 5%;
+}

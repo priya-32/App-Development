@@ -1,0 +1,72 @@
+
+  
+  /* Styles for the "Add new student" button */
+  .btn-outline-success {
+    margin-top: 10px;
+  }
+  
+  /* Styles for the table */
+  .table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dee2e6;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table thead {
+    background-color: #b0d7ff;
+    color: #fff;
+  }
+  
+  /* Styles for table rows and alternating row colors */
+  .table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  /* Styles for the "Edit" button */
+  .btn-dark {
+    background-color: #7bafe2;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Add more styles as needed */
+  /* Style for the navigation bar */
+
+  
+  /* Style for the "Add new student" button */
+  .btn-outline-success {
+    margin-top: 10px; /* Adjust the top margin as needed */
+    background-color: #28a745; /* Background color when not hovered or focused */
+    color: #fff; /* Text color when not hovered or focused */
+    border: none; /* Remove button border */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .btn-outline-success:hover,
+  .btn-outline-success:focus {
+    background-color: #218838; /* Background color when hovered or focused */
+    color: #fff; /* Text color when hovered or focused */
+    outline: none; /* Remove outline when focused */
+  }
+  
+  .navbar-name{
+    font-size: larger;
+    font-weight: 800;
+    text-align: center;
+    font-style: normal;
+    color: black;
+  }
+  .btn-clr a{
+    color: black;
+    font-size: 500;
+    font-weight: 200;
+
+  }

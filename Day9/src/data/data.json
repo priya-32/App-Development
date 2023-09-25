@@ -1,0 +1,212 @@
+{
+  "Header": {
+    "title": "Welcome To UNICA University",
+    "paragraph": "The whole purpose of education is to turn mirrors into windows"
+  },
+  "About": {
+    "paragraph": "To be recognized as centre of excellence in science, engineering and technology through effective teaching and learning processes by providing a conducive learning environment . To foster research and development with creative and entrepreneurial skills by means of innovative applications of technology . Accomplish expectations of the society and industry by nurturing the students to be competent professionals with integrity.",
+    "Why": [ 
+      "Mission: Our purpose.",
+      "History: Our journey.",
+      "Leadership: Our team.",
+      "Excellence: Our standard."
+    ],
+    "Why2": [
+      "Uniqueness: Our edge.",
+      "Success: Our stories.",
+      "Community: Our involvement.",
+      "Diversity: Our strength."
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "AI",
+      "largeImage": "img/univ/ai2.jpg",
+      "smallImage": "img/univ/ai2.jpg"
+    },
+    {
+      "title": "CSE",
+      "largeImage": "img/univ/cse2.jpg",
+      "smallImage": "img/univ/cse2.jpg"
+    },
+    {
+      "title": "DATA SCIENCE",
+      "largeImage": "img/univ/dsa1.jpg",
+      "smallImage": "img/univ/dsa1.jpg"
+    },
+    {
+      "title": "EEE",
+      "largeImage": "img/univ/eee1.jpg",
+      "smallImage": "img/univ/eee1.jpg"
+    },
+    {
+      "title": "ECE",
+      "largeImage": "img/univ/ece.jpg",
+      "smallImage": "img/univ/ece.jpg"
+    },
+    {
+      "title": "ML",
+      "largeImage": "img/univ/ml.jpg",
+      "smallImage": "img/univ/ml.jpg"
+    },
+    {
+      "title": "MECH",
+      "largeImage": "img/univ/mech.jpg",
+      "smallImage": "img/univ/mech.jpg"
+    },
+    {
+      "title": "CHEMICAL",
+      "largeImage": "img/univ/chemical.jpg",
+      "smallImage": "img/univ/chemical.jpg"
+    },
+    {
+      "title": "CYBER SECURITY",
+      "largeImage": "img/univ/cyber.jpg",
+      "smallImage": "img/univ/cyber.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "img": "img/univ/food2.jpg",
+      "name": "University Hostel Life",
+      "text": "Hostel food often varies in quality and variety, with some places offering delicious and diverse meals. "
+    },
+    {
+      "img": "img/univ/lib1.jpg",
+      "name": "Consectetur adipiscing",
+      "text": "Libraries are renowned for their extensive collections and state-of-the-art facilities. "
+    },
+    {
+      "img": "img/univ/class.jpg",
+      "name": "Lorem ipsum dolor",
+      "text": "Classrooms are equipped with modern technology and designed to facilitate interactive learning experiences. "
+    },
+    {
+      "img": "img/univ/play1.jpg",
+      "name": "Consectetur adipiscing",
+      "text": "Boasts well-maintained playgrounds that offer students a vibrant space for recreational activities and social gatherings."
+    },
+    {
+      "img": "img/univ/hostel.jpg",
+      "name": "Lorem ipsum dolor",
+      "text": "The hostels provide comfortable accommodation options for students, fostering a sense of community and convenience."
+    },
+    {
+      "img": "img/univ/admin.jpg",
+      "name": "Consectetur adipiscing",
+      "text": "Offices are organized and efficient spaces that support the institution's administrative functions. "
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/team/alum6.jpg",
+      "text": "\"College memories are something that I’ll cherish throughout my life, because it is a very valuable experience in life with tons of nostalgic moments.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/team/alum24.jpg",
+      "text": "\"I don't want to compare my institution with the world class of the masses, but it certainly is above them all. I am what I am today because of this great institution.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/team/alum25.jpg",
+      "text": "\"The opportunities they gave me made me find my inner potential. I am overwhelmed by the recognition I am receiving from SKCT and my teachers till today.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/team/alum14.jpg",
+      "text": "\"My journey at SKCT was the cornerstone of my success. The solid foundation I built during my bachelor's degree provided me with the essential skills and knowledge to embark on a path of success.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/team/alum22.jpg",
+      "text": "\"SKCT is a place with a blend of lush green campus and a magnificent infrastructure. It provides a platform to students to explore a great opportunity to increase their knowledge and skill-set. \"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/team/alum17.jpg",
+      "text": "\"SKCT is a place of learning, fun, culture, love, literature and many such life preaching activities. It gave me an opportunity to meet different kind of people and learn a number of things. \"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/univ/google.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/zoho1.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/tcs.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/cts.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/amazon.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/wip.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/info1.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/kaar.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/cat.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/univ/hp.jpg",
+      "name": "",
+      "job": ""
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com"
+  
+  },
+  "Homes": [
+    {
+      "img": "img/univ/blockchain.jpg",
+      "title": "Block Chain",
+      "text": "A blockchain event is a conference or gathering focused on discussing the blockchain technology and its applications."
+    },
+    {
+      "img": "img/univ/crypto2.jpg",
+      "title": "Crypto Currency",
+      "text": "A crypto event is a forum for discussing the latest developments and trends in the cryptocurrency space."
+    },
+    {
+      "img": "img/univ/web1.jpg",
+      "title": "Web Development",
+      "text": "Web development involves coding, designing, and building websites to provide users with an engaging and functional online experience."
+    },
+    {
+      "img": "img/univ/ai3.jpg",
+      "title": "Artificial Inteligence",
+      "text": "AI refers to the development of computer systems capable of simulating human intelligence,learn and make informed decisions."
+    }
+  ]
+}
