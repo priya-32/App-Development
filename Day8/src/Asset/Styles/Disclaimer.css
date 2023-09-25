@@ -1,0 +1,40 @@
+/* Disclaimer.css */
+
+/* Container styles */
+.disclaimer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #444;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Strong text styles */
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Link styles */
+  a {
+    
+    text-decoration: none;
+  }
+  
+ 
