@@ -1,0 +1,95 @@
+/* CSS for Settings component */
+
+
+  
+  .titlebar {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .user-data-edit {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px 0;
+  }
+  
+  .user-data-display-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-data-display-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .save-action-btn,
+  .edit-action-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-action-btn {
+    background-color: #007bff;
+  }
+  
+  .user-data-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .xdata-container,
+  .ydata-container {
+    width: 48%;
+    margin: 0 1%;
+  }
+  
+  .x-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .data-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .data-input.bg-secondary-input {
+    background-color: #f5f5f5;
+  }
+  
+  .black {
+    color: #000;
+  }
+  
+  .primary {
+    color: #007bff;
+  }
+  
+  .x-data,
+  .y-data {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar and UserLeftbar styles here */
+  
+  /* CSS for Footer component */
+  
+  /* Define styles for Navbar and UserLeftbar components if not already defined */
+  
