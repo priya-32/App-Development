@@ -1,0 +1,92 @@
+.home-wrapper {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    perspective: 1000px;
+    background-image: linear-gradient(to right, rgba(270, 120, 199, 0.3) 50%, transparent 10%);
+}
+.home-image img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 60%;
+    filter: blur(5px);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    margin-left: 40%;
+}
+/* .home-container {
+   
+    
+    
+    filter: blur(5px); Apply the blur effect to the background image
+    z-index: -1; Set a lower z-index to ensure it's displayed behind other content
+} */
+
+.title-con {
+    transform-origin: center center;
+    transform-style: preserve-3d;
+    animation: move 5s ease-in-out infinite;
+}
+
+.title-con h1 {
+    padding: 4px;
+    font: 900 4em 'Concert One', cursive;
+    position: fixed; /* Use position: fixed; to keep it fixed in the center */
+    top: 30%; /* Vertically center the title */
+    left: 50%; /* Horizontally center the title */
+    transform: translate(-50%, -100%); /* Center it precisely */
+    color: black;
+    animation: color 10s ease-in-out infinite;
+}
+
+@keyframes color {
+    0%, 100% {
+        text-shadow: 0 0 30px rgb(126, 115, 115);
+    }
+    25% {
+        text-shadow: 0 0 30px blue;
+    }
+    50% {
+        text-shadow: 0 0 30px rgb(220, 128, 220);
+    }
+    75% {
+        text-shadow: 0 0 30px rgb(240, 164, 176);
+    }
+}
+
+.neon-btn {
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.5s;
+    border: none;
+    border-radius: 25px;
+    background-color: #d8cfe0;
+    margin-left: 10%;
+}
+
+.neon-btn:hover {
+    color: #c45dd6;
+    background: #a84afa;
+    box-shadow: 0 0 10px #d8cfe0, 0 0 10px #c45dd6, 0 0 40px #a84afa, 0 0 80px #c45dd6;
+}
+
+.quote{
+    margin-top: 15%;
+    font-style: italic;
+    
+}
