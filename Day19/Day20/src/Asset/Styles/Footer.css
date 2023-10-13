@@ -1,0 +1,96 @@
+/* Footer Styles */
+#contact {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+.section-title h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.social ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+}
+
+.contact-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Adjust responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .col-md-8 {
+    margin-bottom: 20px;
+  }
+
+  .col-md-offset-1 {
+    margin-left: 0;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+}

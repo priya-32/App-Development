@@ -1,0 +1,53 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: #fff; /* Text color for the navbar */
+    padding: 10px 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar-l {
+    font-size: 24px;
+  }
+  
+  .navbar-r {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 10px 0;
+    transition: color 0.3s;
+  }
+  
+  .navbar-btn:hover {
+    color: #ff6600; /* Change the color on hover */
+  }
+  
+  /* Icons Styles */
+  /* Uncomment these styles if you want to use Lucide icons */
+  /*
+  .lucide-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  */
+  
+  /* Add additional styles as needed */
+  

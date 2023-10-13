@@ -1,0 +1,41 @@
+/* Add this CSS to your Mainpage.css file or your preferred stylesheet */
+.scroll-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.scroll-button i {
+  font-size: 24px;
+  color: #007bff; /* Change the color to your preferred color */
+}
+/* Mainpage.css */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .scroll-button {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .scroll-button.visible {
+    opacity: 1;
+  }
+  
