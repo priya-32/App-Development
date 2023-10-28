@@ -1,0 +1,57 @@
+/* EditStudent.css */
+
+.edit-student-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-student-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .edit-student-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-student-container input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 10px;
+  }
+  
+  .edit-student-container input[type="text"],
+  .edit-student-container input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-student-container button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-student-container button:hover {
+    background-color: #0056b3;
+  }
+  
