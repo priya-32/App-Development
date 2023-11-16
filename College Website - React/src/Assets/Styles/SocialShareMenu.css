@@ -1,0 +1,47 @@
+/* SocialShareMenu.css */
+
+.menu {
+    position: fixed;
+    top: 40px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .toggle {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .toggle ion-icon {
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: var(--clr);
+  }
+  
+  li a ion-icon {
+    font-size: 36px;
+  }
+  
+  .menu.active li {
+    transform: translateX(100%);
+  }
+  

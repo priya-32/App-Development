@@ -1,0 +1,68 @@
+.counter-section {
+    background: url("https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat scroll center/cover;
+    height: 50vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+
+  }
+  
+  .counter-section .main-title {
+    color: #ffffff;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content:space-between;
+    padding-right: 5px;
+    flex-wrap: wrap;
+
+  }
+  
+  .counter-count {
+    text-align: center;
+    flex: 0 0 23%;
+    margin-bottom: 30px;
+    margin-right: 55px;
+  }
+  
+  .counter-count .count {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    font-weight: 700;
+    justify-content: center;
+    height: 180px;
+    margin: 0 auto 20px;
+    width: 180px;
+  }
+  
+  .counter-count h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 1200px) {
+    .counter-count .count {
+      height: 120px;
+      font-size: 40px;
+      width: 120px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .counter-count {
+      flex: 10px 10px 100%;
+    }
+  }
+  

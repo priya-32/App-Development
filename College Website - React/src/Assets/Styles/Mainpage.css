@@ -1,0 +1,153 @@
+.main-page-wrapper {
+    background: var(--glass);
+    color: var(--black);
+  background: linear-gradient(
+    106.37deg,
+    #ffffff 29.63%,
+    #ffffff 51.55%,
+    #e2feff 90.85%
+  );
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+  position: relative;
+  }
+  
+  .mainpage-wrapper{
+   
+    width: 100%;
+    min-height: 90vh;
+    background: var(--glass);
+    color: var(--black);
+  background: linear-gradient(
+    106.37deg,
+    #ffffff 29.63%,
+    #ffffff 51.55%,
+    #e2feff 90.85%
+  );
+}
+
+ .left-half, .right-half {
+    width: 50%;
+    height: 90%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.left-half{
+   
+    float: left;
+    width: 40%;
+    padding: 5px 20px 20px 20px;
+    min-height: 89vh;
+    /* filter: blur(5px); */
+    z-index: -1;
+}
+.left-image{
+    margin-top: 18%;
+    background-image: url("https://www.vecteezy.com/vector-art/6912142-group-of-students-concept-illustration");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+}
+
+.text-quote{
+    margin-top: 0%;
+    font-size: 25px;
+    margin-left: 20%;
+    font-style: italic;
+    text-align: right;
+}
+.right-title h3{
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 40%;
+    font-style: italic;
+}
+.scroll-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-size: larger;
+  }
+  
+  .scroll-button i {
+    font-size: 54px;
+    color: #0b0b0b; /* Change the color to your preferred color */
+  }
+
+
+  .neon-btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .neon-btn {
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.5s;
+    border: none;
+    border-radius: 25px;
+    background-color: #0093ac;
+    margin-left: 25%;
+    background: (--glass);
+}
+
+.neon-btn:hover {
+    color: #1bbaff;
+    background: #4adafa;
+    box-shadow: 0 0 10px #64cbe2, 0 0 10px #adfffc, 0 0 40px #5dccd6, 0 0 80px #84e4ff;
+}
+/* 
+.img-con1 img{
+  height: 500px;
+  width: 500px;
+  position: relative;
+} */
+
+.blurry-background {
+  width: 100%;
+  height: 90vh;
+  background: url("https://images.shiksha.com/mediadata/images/1586175635php9a4pAO.jpeg") center/cover no-repeat; /* Replace 'your-image.jpg' with your actual image path */
+  filter: blur(6px); /* Adjust the blur amount as needed */
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.wel{
+  font-size: 70px;
+  font-style: italic;
+  color: #000;
+}
+.uni09{
+  font-size: 90px;
+  font-style: italic;
+  color: #000;
+}
+
+.main-para p{
+  margin-top: 6%;
+  margin-left: 20%;
+  font-size: 20px;
+  text-align: justify;
+  color:white;
+}
+

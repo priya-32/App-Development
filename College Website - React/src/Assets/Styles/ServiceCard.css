@@ -1,0 +1,29 @@
+/* Add your custom styles or modify as needed */
+.services-wrap {
+    margin-top: 4rem;
+  }
+  
+  .services {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .services:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-right: 15px;
+    color: #007bff; /* Change the color as needed */
+  }
+  
+  .text {
+    flex-grow: 1;
+  }
+  
+  /* Add your additional styles based on your requirements */
+  

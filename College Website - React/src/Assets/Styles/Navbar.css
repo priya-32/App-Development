@@ -1,0 +1,126 @@
+/* .navbar-container{
+    margin-top: 3%;
+} */
+.nav-wrapper {
+    
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 0 25px;
+    z-index: 2;
+    background: var(--glass);
+    color: var(--black);
+  background: linear-gradient(
+    106.37deg,
+    #ffffff 29.63%,
+    #ffffff 51.55%,
+    #e2feff 90.85%
+  );
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  .nav-top{
+    float: left;
+    margin-left: 5%;
+    font-size: larger;
+
+  }
+  .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Your Font Here', sans-serif; /* Specify the desired font family */
+    color: #343a40; /* Adjust the color of the text */
+  
+    /* Add other styling properties as needed */
+  } 
+  
+  .navbar-brand span {
+    
+    margin-top: 5px; /* Adjust the spacing between "Academia" and "Online Education & Learning" */
+    color: #1e262f; /* Adjust the color of the text */
+    font-weight: bold; /* Make the text bold */
+  }
+.brand-name{
+    font-size: larger;
+}
+.nav1-top1{
+    float: left;
+    margin-left: 25%;
+    font-size: larger;
+
+  }
+.navbar1-brand1 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Your Font Here', sans-serif;
+    color: #343a40; 
+  
+  } 
+  
+  .navbar1-brand1 span {
+    
+   
+    margin-top: 5px; 
+    color: #1e262f; 
+    font-weight: bold; 
+  }  
+  .time span{
+    font-size: 50px;
+
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  .nav-container a{
+    text-decoration: none;
+    color: #000;
+  }
+  .nav-container a:hover{
+    color: skyblue;
+  }
+  .nav-tabs {
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    list-style: none;
+  }
+  
+  .nav-tab {
+    padding: 10px 25px;
+    margin: 0;
+    border-right: 1px solid #eee;
+  }
+  
+
+  .nav-tab,
+  .menu-btn {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .nav-tab:hover {
+    color: #7ce8fb;
+    
+  }
+  

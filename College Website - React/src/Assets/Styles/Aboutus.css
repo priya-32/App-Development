@@ -1,0 +1,68 @@
+/* Aboutus.css */
+
+.about-us {
+    background-color: white;
+    padding: 80px 0;
+    margin-top: 20px;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .text {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+ .college{
+    color: #555;
+  }
+  
+  /* span {
+    color: #00bcd4;
+  } */
+  
+  p {
+    color: #777;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .data {
+    margin-top: 20px;
+  }
+  
+  .hire {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hire:hover {
+    background-color: #008ba3;
+  }
+  
+  .about-container{
+    top: 15px;
+    background-color: white;
+  }

@@ -1,0 +1,110 @@
+.wrap {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+.background {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Style the service blocks */
+.linkService {
+  text-decoration: none;
+}
+
+.rowService {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.rowService:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.overlayService {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.6));
+}
+
+.iconService {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.iconService i {
+  font-size: 30px;
+}
+
+.contentService {
+  padding: 20px;
+}
+
+.arrowService {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.arrowService i {
+  font-size: 20px;
+}
+
+/* Different colors for different services */
+.bluService {
+  background-color: #3498db;
+}
+
+.asfaltService {
+  background-color: #2ecc71;
+}
+
+.redService {
+  background-color: #e74c3c;
+}
+
+/* Style the text inside the service blocks */
+.contentService h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contentService h4, .contentService h6 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .wrap {
+    padding: 10px;
+  }
+
+  .contentService h2 {
+    font-size: 20px;
+  }
+
+  .contentService h4, .contentService h6 {
+    font-size: 16px;
+  }
+}
